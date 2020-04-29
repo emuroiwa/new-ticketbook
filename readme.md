@@ -9,7 +9,7 @@ Please see the authentication branch if you're looking for the source code that 
 Start off by cloning the repo. Make sure to switch branches if you want to have a different starting point.
 
 ```
-git clone https://github.com/fritsvt/laravel-nuxt-authentication.git
+git clone https://github.com/emuroiwa/new-ticketbook.git
 ```
 
 Make sure you are in the main project folder:
