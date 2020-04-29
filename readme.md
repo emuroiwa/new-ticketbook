@@ -88,8 +88,9 @@ Example:
 
 ```
 
-Change this setting, if needed. 
+Change this setting, if needed.
 If set, we will save the email that comes back from social login, regardless of whether or not it has been verified by the provider (Google is the only one that does this right now). If not set, we will store a dummy email to the DB like: 'linkedin-id123456@linkedin.local'
+
 ```
 RETRIEVE_UNVERIFIED_SOCIAL_EMAIL=0
 ```
@@ -130,7 +131,7 @@ This needs to be done in 2 places:
 
 ```
    env: {
-    baseUrl: process.env.BASE_URL || 'https://jwt-auth.test.com/api/'
+    baseUrl: process.env.BASE_URL || 'http://ernestmuroiwa/api/'
    },
 ```
 
@@ -145,7 +146,7 @@ Example: baseUrl: process.env.BASE_URL || 'http://localhost:8000/api/'
   */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    baseURL: 'http://jwt-auth.test/api'
+    baseURL: 'http://ernestmuroiwa/api'
   },
 ```
 
